@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #282c34;
+    color: #abb2bf;
 }
 
 .container {
@@ -15,15 +15,15 @@ body {
 }
 
 header {
-    background: #333;
+    background: #21252b;
     color: #fff;
     padding-top: 20px;
     min-height: 70px;
-    border-bottom: #77aaff 3px solid;
+    border-bottom: #61afef 3px solid;
 }
 
 header a {
-    color: #fff;
+    color: #abb2bf;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -53,19 +53,19 @@ header nav {
 }
 
 header .highlight, header .current a {
-    color: #77aaff;
+    color: #61afef;
     font-weight: bold;
 }
 
 header a:hover {
-    color: #fff;
+    color: #61afef;
     font-weight: bold;
 }
 
 /* Hero Section */
 .hero {
     min-height: 400px;
-    background: #333 url('https://via.placeholder.com/150') no-repeat center center/cover; /* Placeholder image */
+    background: #282c34;
     text-align: center;
     color: #fff;
     display: flex;
@@ -83,14 +83,7 @@ header a:hover {
     font-size: 1.2em;
 }
 
-.profile-pic {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 20px;
-    border: 5px solid #77aaff;
-}
+
 
 /* Sections */
 section {
@@ -99,13 +92,13 @@ section {
 }
 
 .section-alt {
-    background-color: #e2e2e2;
+    background-color: #3a3f4b;
 }
 
 section h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #333;
+    color: #61afef;
 }
 
 /* Skills */
@@ -119,7 +112,7 @@ section h2 {
 }
 
 #skills li {
-    background: #77aaff;
+    background: #61afef;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -143,14 +136,14 @@ section h2 {
 }
 
 .project-item h3 {
-    color: #77aaff;
+    color: #61afef;
     margin-top: 0;
 }
 
 .project-item a {
     display: inline-block;
     margin-top: 10px;
-    color: #77aaff;
+    color: #61afef;
     text-decoration: none;
     font-weight: bold;
 }
@@ -161,7 +154,7 @@ section h2 {
 
 /* Contact */
 #contact a {
-    color: #77aaff;
+    color: #61afef;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
@@ -176,7 +169,7 @@ footer {
     padding: 20px;
     margin-top: 20px;
     color: #fff;
-    background-color: #333;
+    background-color: #21252b;
     text-align: center;
 }
 
